@@ -16,7 +16,7 @@ import {
 } from "@/components/icons";
 import { GlobeDemo } from "@/components/globe";
 import { Faqs } from "@/components/faqs";
-import Splash from "@/assets/splash.png";
+import Splash from "@/assets/splash.jpg";
 
 export default function Home() {
   return (
@@ -51,7 +51,7 @@ export default function Home() {
                   class: "mt-4 max-lg:text-center lg:text-sm",
                 })}
               >
-                Tu seguridad no espera. Actúa ahora y viaja con tranquilidad.
+                No te compliques la vida, antes de tomar el volante
               </div>
               <div className="flex gap-3 mt-8">
                 <Link
