@@ -91,7 +91,7 @@ export default function RootLayout({
               <Link
                 isExternal
                 className="flex items-center gap-1 text-current"
-                href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
+                href="#"
               >
                 <span className="text-white">Con el respaldo de</span>
                 <p className="text-white font-bold">Ricardos y Más S.A.C.</p>
