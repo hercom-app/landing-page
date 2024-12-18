@@ -12,7 +12,6 @@ import { Logo } from "@/components/icons";
 export const Navbar = () => {
   return (
     <NextUINavbar
-      shouldHideOnScroll
       classNames={{
         base: "bg-transparent",
       }}
