@@ -27,6 +27,7 @@ export const metadata: Metadata = {
       "chofer de reemplazo",
       "chofer para reemplazo",
     ],
+    siteName: "HERCOM",
   },
   keywords: [
     "chofer",
