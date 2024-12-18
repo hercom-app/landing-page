@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "HERCOM: Chofer para remplazo",
+  name: "HERCOM",
   description: "Descripcion de la App HERCOM",
   navItems: [
     {

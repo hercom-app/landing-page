@@ -1,7 +1,6 @@
 import { Link } from "@nextui-org/link";
 import { button as buttonStyles } from "@nextui-org/theme";
 
-import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { Phone } from "@/components/phone";
 import {
@@ -55,21 +54,19 @@ export default function Home() {
               </div>
               <div className="flex gap-3 mt-8">
                 <Link
-                  isExternal
                   className={buttonStyles({
                     color: "primary",
                     radius: "full",
                   })}
-                  href={siteConfig.links.docs}
+                  href="#descarga"
                 >
                   Descargar la app ya!
                 </Link>
                 <Link
-                  isExternal
                   className={buttonStyles({
                     radius: "full",
                   })}
-                  href={siteConfig.links.github}
+                  href="#porque-elegirnos"
                 >
                   Conoce a HERCOM
                 </Link>
@@ -79,7 +76,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <section className="section py-10 lg:py-20">
+      <section className="section py-10 lg:py-20" id="porque-elegirnos">
         <h2
           className={title({
             size: "xs",
@@ -123,7 +120,10 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section className="w-full bg-primary/25 py-10 lg:py-20">
+      <section
+        className="w-full bg-primary/25 py-10 lg:py-20"
+        id="nuestros-servicios"
+      >
         <div className="section flex flex-col items-center gap-5 lg:gap-10">
           <h2
             className={title({
@@ -231,7 +231,10 @@ export default function Home() {
         </h2>
         <Faqs />
       </section>
-      <section className="relative w-full bg-neutral-200 dark:bg-neutral-900 bg-[url(../assets/map-light.webp)] dark:bg-[url(../assets/map-dark.webp)] bg-cover">
+      <section
+        className="relative w-full bg-neutral-200 dark:bg-neutral-900 bg-[url(../assets/map-light.webp)] dark:bg-[url(../assets/map-dark.webp)] bg-cover"
+        id="descarga"
+      >
         <div className="section pt-10 pb-12 lg:pt-20 lg:pb-24 flex flex-col items-center gap-10">
           <h2
             className={title({
@@ -257,7 +260,7 @@ export default function Home() {
                 radius: "full",
                 className: "bg-black flex items-center gap-2 relative px-5",
               })}
-              href={siteConfig.links.docs}
+              href="https://play.google.com/store/"
             >
               <LogosGooglePlay className="text-xl" />
               <div className="flex flex-col ">
@@ -274,7 +277,7 @@ export default function Home() {
                 radius: "full",
                 className: "bg-black flex items-center gap-2 relative px-5",
               })}
-              href={siteConfig.links.docs}
+              href="https://www.apple.com/la/app-store/"
             >
               <LogosApple className="text-xl text-white" />
               <div className="flex flex-col ">

@@ -13,10 +13,27 @@ import { WhatsappIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.name,
+    default: `${siteConfig.name}: Chofer para reemplazo`,
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  openGraph: {
+    title: "HERCOM - Chofer de reemplazo",
+    description: siteConfig.description,
+    locale: "es",
+    tags: [
+      "chofer",
+      "reemplazo",
+      "chofer de reemplazo",
+      "chofer para reemplazo",
+    ],
+  },
+  keywords: [
+    "chofer",
+    "reemplazo",
+    "chofer de reemplazo",
+    "chofer para reemplazo",
+  ],
   icons: {
     icon: "/favicon.ico",
   },

@@ -26,6 +26,7 @@ export const Phone = ({ image }: Props) => {
         </div>
         {image && (
           <Image
+            priority
             alt="Phone image"
             className="w-full h-full object-cover"
             src={image}
