@@ -2,12 +2,14 @@ import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
+import { Button } from "@nextui-org/button";
 
 import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
+import { WhatsappIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: {
@@ -45,6 +47,28 @@ export default function RootLayout({
           <div className="relative flex flex-col h-screen">
             <Navbar />
             {children}
+            <div className="fixed bottom-4 right-4 z-30">
+              <Button
+                isExternal
+                isIconOnly
+                as={Link}
+                className="bg-[#53cf60] lg:hidden"
+                href="https://api.whatsapp.com/send?phone=51937244089"
+                radius="full"
+              >
+                <WhatsappIcon className="text-xl" id="1" />
+              </Button>
+              <Button
+                isExternal
+                as={Link}
+                className="bg-[#53cf60] max-lg:hidden text-white font-semibold"
+                href="https://api.whatsapp.com/send?phone=51937244089"
+                radius="full"
+                startContent={<WhatsappIcon className="text-xl" id="2" />}
+              >
+                Contáctanos
+              </Button>
+            </div>
             <footer className="w-full flex items-center justify-center py-3 bg-primary">
               <Link
                 isExternal

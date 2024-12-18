@@ -4,12 +4,10 @@ import {
   NavbarBrand,
   NavbarItem,
 } from "@nextui-org/navbar";
-import { Link } from "@nextui-org/link";
 import NextLink from "next/link";
 
-import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { InstagramIcon, Logo, XIcon } from "@/components/icons";
+import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
   return (
@@ -23,9 +21,11 @@ export const Navbar = () => {
     >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
-          <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
-            <p className="font-bold text-inherit">ACME</p>
+          <NextLink
+            className="flex justify-start items-center gap-1 text-white dark:text-neutral-800"
+            href="/"
+          >
+            <Logo height={50} width={120} />
           </NextLink>
         </NavbarBrand>
         {/* <ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -51,23 +51,23 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-2">
-          <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
+          {/* <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
             <XIcon className="text-default-500" />
           </Link>
           <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
             <InstagramIcon className="text-default-500" />
-          </Link>
+          </Link> */}
           <ThemeSwitch />
         </NavbarItem>
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
+        {/* <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
           <XIcon className="text-default-500" />
         </Link>
         <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
           <InstagramIcon className="text-default-500" />
-        </Link>
+        </Link> */}
         <ThemeSwitch />
         {/* <NavbarMenuToggle /> */}
       </NavbarContent>
