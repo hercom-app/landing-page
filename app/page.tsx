@@ -82,7 +82,7 @@ export default function Home() {
             class: "text-center",
           })}
         >
-          ¿Por qué elegir a HERCOM - Chofer de reemplazo?
+          ¿Por qué elegir a HERCOM - Chofer para remplazo?
         </h2>
         <div className="flex flex-col items-center gap-10 pt-10 lg:gap-0 lg:flex-row lg:justify-between">
           {[

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   openGraph: {
-    title: "HERCOM - Chofer de reemplazo",
+    title: "HERCOM - Chofer para remplazo",
     description: siteConfig.description,
     locale: "es",
     tags: [
