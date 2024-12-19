@@ -31,7 +31,7 @@ export default function Home() {
                   size: "lg",
                 })}
               >
-                Cuida de ti y de los tuyos en un solo click
+                Cuida de ti y de tu familia en un solo click
               </h1>
               <div
                 className={subtitle({
