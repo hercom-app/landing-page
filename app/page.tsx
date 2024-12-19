@@ -31,7 +31,7 @@ export default function Home() {
                   size: "lg",
                 })}
               >
-                Cuida de ti y de tu familia
+                Cuidamos de ti <br /> y de tu familia
               </h1>
               <div
                 className={subtitle({
