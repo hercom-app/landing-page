@@ -48,7 +48,7 @@ export default function Home() {
                   class: "mt-4 max-lg:text-center lg:text-lg font-semibold ",
                 })}
               >
-                No te compliques la vida, antes de tomar el volante
+                No te compliques la vida, antes de tomar el volante...
               </div>
               <div className="flex gap-3 mt-8">
                 <Link
