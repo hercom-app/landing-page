@@ -82,7 +82,7 @@ export default function Home() {
             class: "text-center",
           })}
         >
-          ¿Por qué elegir a HERCOM - Chofer para remplazo?
+          ¿Por qué elegir a HERCOM - Chofer para Remplazo?
         </h2>
         <div className="flex flex-col items-center gap-10 pt-10 lg:gap-0 lg:flex-row lg:justify-between">
           {[
@@ -102,7 +102,7 @@ export default function Home() {
               icon: <ThumbsUpIcon className="z-[2]" size={32} />,
               title: "En un solo click",
               description:
-                "Descarga nuestro aplicativo y en un solo click podrás llamar a nuestros Choferes para remplazo",
+                "Descarga nuestro aplicativo y en un solo click podrás llamar a nuestros Choferes para Remplazo",
             },
           ].map((item, index) => (
             <div key={index} className="group flex flex-col gap-6 items-center">
