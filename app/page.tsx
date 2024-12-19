@@ -31,7 +31,7 @@ export default function Home() {
                   size: "lg",
                 })}
               >
-                Cuida de ti y de tu familia en un solo click
+                Cuida de ti y de tu familia
               </h1>
               <div
                 className={subtitle({
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
               <div
                 className={subtitle({
-                  class: "mt-4 max-lg:text-center lg:text-sm",
+                  class: "mt-4 max-lg:text-center lg:text-lg font-semibold ",
                 })}
               >
                 No te compliques la vida, antes de tomar el volante
