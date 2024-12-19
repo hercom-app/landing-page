@@ -4,7 +4,7 @@ import { Accordion, AccordionItem } from "@nextui-org/accordion";
 export function Faqs() {
   const data = [
     {
-      title: "¿Porque utilizar la App HERCOM?",
+      title: "¿Por qué utilizar la App HERCOM?",
       content:
         "Utilizar el servicio de Chofer para Remplazo, te permitirá olvidarte de multas, retención de tu brevete o de accidentes de tránsito. Olvídate de ser el amigo elegido y disfruta también de tus reuniones.",
     },
@@ -12,17 +12,17 @@ export function Faqs() {
       title:
         "¿Cuál es la seguridad que me ofrece el servicio de Chofer para Remplazo?",
       content:
-        "Mitigamos riesgos con nuestros servicios; riesgos como accidentes, atropellos, choques u otros escenarios que puedan atentar con tu vida o de los demás.",
+        "Mitigamos los riesgos con nuestros servicios; riesgos como accidentes, atropellos, choques u otros escenarios que puedan atentar contra tu vida o de los demás. Evita terminar en la cárcel.",
     },
     {
       title: "¿La App HERCOM está activa las 24 horas del día?",
       content:
-        "La App es un aplicativo libre y si está disponible las 24 horas del día por los 7 días de la semana. Solo tienes que bajar la App Hercom en tu celular y estará totalmente disponible para ti, para tu familia y para tus amigos.",
+        "La app sí está disponible las 24 horas del día los 7 días de la semana. Solo tienes que bajar la App Hercom - Chofer para Remplazo en tu celular y estará totalmente disponible para ti, tu familia y tus amigos",
     },
     {
       title: "¿Cómo hago para afiliarme como Chofer para Remplazo?",
       content:
-        "Solo tienes que bajar la App Hercom (Chofer para Remplazo) a tu celular por Google Play o también por App Store; ingresa tus datos al aplicativo y un ejecutivo se pondrá en contacto contigo de calificar con los requisitos.",
+        "Solo tienes que bajar la App Hercom - Chofer para Remplazo en tu celular por Google Play Store o también por la App Store; ingresa tus datos al aplicativo y un ejecutivo se pondrá en contacto contigo de calificar con los requisitos. Es totalmente gratis.",
     },
     {
       title:

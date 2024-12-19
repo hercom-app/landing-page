@@ -40,7 +40,8 @@ export default function Home() {
                 })}
               >
                 HERCOM - Chofer para Remplazo, es la App que mitiga los
-                Accidentes de Tránsito y Multas innecesarias.
+                Accidentes de Tránsito, Multas innecesarias y Problemas Legales
+                en nuestra sociedad.
               </div>
               <div
                 className={subtitle({
@@ -59,14 +60,14 @@ export default function Home() {
                 >
                   Descargar la app ya!
                 </Link>
-                <Link
-                  className={buttonStyles({
+                {/* <Link
+                  className={buttonStyles({ 
                     radius: "full",
                   })}
                   href="#porque-elegirnos"
                 >
                   Conoce a HERCOM
-                </Link>
+                </Link> */}
               </div>
             </div>
             <Phone image={Splash} />
@@ -81,7 +82,7 @@ export default function Home() {
             class: "text-center",
           })}
         >
-          ¿Por qué elegir a HERCOM?
+          ¿Por qué elegir a HERCOM - Chofer de reemplazo?
         </h2>
         <div className="flex flex-col items-center gap-10 pt-10 lg:gap-0 lg:flex-row lg:justify-between">
           {[
@@ -89,19 +90,19 @@ export default function Home() {
               icon: <PhoneCheckIcon className="z-[2]" size={32} />,
               title: "Comodidad",
               description:
-                "Un solo clic y tendrás un chofer a tu disposición, listo para ayudarte cuando más lo necesites.",
+                "Te llevamos a ti y atu familia a tu destino en la comodidad de tu propio vehiculo",
             },
             {
               icon: <SecurityIcon className="z-[2]" size={32} />,
-              title: "Seguridad",
+              title: "Prevención",
               description:
-                "Protege a tus seres queridos con un chofer profesional que te lleva a tu destino de forma segura.",
+                "Evita poner tu vida en riesgo o la vida de los demas. Evita las multas. Evita terminar en la carcel.",
             },
             {
               icon: <ThumbsUpIcon className="z-[2]" size={32} />,
-              title: "Facilidad de uso",
+              title: "En un solo click",
               description:
-                "Solicita un reemplazo rápido y fácil, con una interfaz intuitiva que no te hará perder tiempo.",
+                "Descarga nuestro aplicativo y en un solo click podrás llamar a nuestros Choferes de reemplazo",
             },
           ].map((item, index) => (
             <div key={index} className="group flex flex-col gap-6 items-center">
@@ -198,18 +199,21 @@ export default function Home() {
               Tenemos cobertura internacional
             </h2>
             <p className="max-lg:text-center mt-5 text-small lg:text-base text-balance">
-              HERCOM se encuentra disponible actualmente en Perú y Colombia,
-              brindándote seguridad y tranquilidad en estos dos países.
+              Hercom - Chofer para Remplazo se encuentra expandiéndose en Perú,
+              Colombia, Chile y México, incorporando prevención a los accidentes
+              de tránsito.
             </p>
             <p className="max-lg:text-center text-small lg:text-base text-balance">
-              Estamos comprometidos con tu bienestar y, por eso, nuestra misión
-              es expandirnos a toda Latinoamérica, ofreciendo nuestra protección
-              y servicio a más viajeros.
+              Estamos comprometidos con tu bienestar y el de tu familia,
+              trabajamos constantemente en nuestro laboratorio tecnológico para
+              brindar una propuesta al desarrollo social en mitigar los riesgos
+              por accidentes de tránsito.
             </p>
             <p className="max-lg:text-center text-small lg:text-base text-balance">
-              Con planes de expansión en marcha, pronto podrás disfrutar de
-              HERCOM en más destinos de la región, garantizando que tu seguridad
-              esté siempre al alcance de tu mano, sin importar dónde estés.
+              Con planes de expansión comercial en marcha, pronto podrás
+              disfrutar de HERCOM - Chofer para Remplazo en más destinos de la
+              región garantizando que los tuyos regresarán a casa sanos y
+              salvos.
             </p>
           </div>
           <div className="h-72 pointer-events-none lg:h-[500px] lg:aspect-square">
@@ -242,12 +246,14 @@ export default function Home() {
             ¡Haz tu viaje más seguro ahora!
           </h2>
           <p className="text-center text-balance text-small lg:text-base">
-            No esperes más para poner tu seguridad al alcance de tu mano. HERCOM
-            te ofrece la tranquilidad que necesitas, en cada viaje. Descarga la
-            app y accede a nuestros servicios exclusivos para protegerte, sin
-            importar a dónde vayas.
-            <br /> <br />
-            ¡Un solo clic y viaja seguro!
+            Nadie está libre de los accidentes, pero si podemos mitigarlos con
+            tu Chofer para Remplazo. HERCOM - Chofer para Remplazo te ofrece la
+            tranquilidad que necesitas en cada viaje. Descarga la app y accede a
+            nuestros servicios exclusivos para protegerte, sin importar a dónde
+            vayas.
+          </p>
+          <p className="text-center text-balance lg:text-lg font-semibold">
+            Evitar es de inteligentes, Prevenir es de sabios
           </p>
           <div className="flex items-center gap-10">
             <Link

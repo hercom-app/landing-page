@@ -94,7 +94,7 @@ export default function RootLayout({
                 href="#"
               >
                 <span className="text-white">Con el respaldo de</span>
-                <p className="text-white font-bold">Ricardos y Más S.A.C.</p>
+                <p className="text-white font-bold">Ricardos & Más S.A.C.</p>
               </Link>
             </footer>
           </div>
