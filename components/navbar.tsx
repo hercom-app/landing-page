@@ -5,9 +5,9 @@ import {
   NavbarItem,
 } from "@nextui-org/navbar";
 import NextLink from "next/link";
+import Image from "next/image";
 
 import { ThemeSwitch } from "@/components/theme-switch";
-import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
   return (
@@ -24,7 +24,7 @@ export const Navbar = () => {
             className="flex justify-start items-center gap-1 text-white dark:text-neutral-800"
             href="/"
           >
-            <Logo height={50} width={120} />
+            <Image alt="logo" height={50} src="./logo.png" width={50} />
           </NextLink>
         </NavbarBrand>
         {/* <ul className="hidden lg:flex gap-4 justify-start ml-2">

@@ -21,14 +21,19 @@ export const metadata: Metadata = {
     title: "HERCOM - Chofer para Reemplazo",
     description: siteConfig.description,
     locale: "es",
-    tags: ["chofer", "reemplazo", "chofer de remplazo", "chofer para remplazo"],
+    tags: [
+      "chofer",
+      "remplazo",
+      "chofer para remplazo",
+      "chofer para remplazo",
+    ],
     siteName: "HERCOM",
   },
   keywords: [
     "chofer",
-    "reemplazo",
-    "chofer de reemplazo",
-    "chofer para reemplazo",
+    "remplazo",
+    "chofer para remplazo",
+    "chofer para remplazo",
   ],
   icons: {
     icon: "/favicon.ico",

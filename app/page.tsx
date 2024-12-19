@@ -102,7 +102,7 @@ export default function Home() {
               icon: <ThumbsUpIcon className="z-[2]" size={32} />,
               title: "En un solo click",
               description:
-                "Descarga nuestro aplicativo y en un solo click podrás llamar a nuestros Choferes de reemplazo",
+                "Descarga nuestro aplicativo y en un solo click podrás llamar a nuestros Choferes para remplazo",
             },
           ].map((item, index) => (
             <div key={index} className="group flex flex-col gap-6 items-center">
