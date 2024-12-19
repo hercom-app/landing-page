@@ -39,11 +39,8 @@ export default function Home() {
                     "mt-4 max-lg:hidden lg:text-sm lg:text-balance lg:max-w-xl",
                 })}
               >
-                HERCOM es la app que pone tu seguridad al frente, previniendo
-                accidentes de tránsito causados por fatiga, estrés o incluso el
-                alcohol. En un solo clic, puedes contar con un chofer de
-                reemplazo y proteger a los tuyos, sin importar las
-                circunstancias.
+                HERCOM - Chofer para Remplazo, es la App que mitiga los
+                Accidentes de Tránsito y Multas innecesarias.
               </div>
               <div
                 className={subtitle({
