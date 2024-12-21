@@ -2,14 +2,12 @@ import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
-import { Button } from "@nextui-org/button";
 
 import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
-import { WhatsappIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: {
@@ -65,7 +63,7 @@ export default function RootLayout({
           <div className="relative flex flex-col h-screen">
             <Navbar />
             {children}
-            <div className="fixed bottom-4 right-4 z-30">
+            {/* <div className="fixed bottom-4 right-4 z-30">
               <Button
                 isExternal
                 isIconOnly
@@ -86,7 +84,7 @@ export default function RootLayout({
               >
                 Contáctanos
               </Button>
-            </div>
+            </div> */}
             <footer className="w-full flex items-center justify-center py-3 bg-primary">
               <Link
                 isExternal
