@@ -6,8 +6,12 @@ import {
 } from "@nextui-org/navbar";
 import NextLink from "next/link";
 import Image from "next/image";
+import { Link } from "@nextui-org/link";
+
+import { FacebookIcon } from "./icons";
 
 import { ThemeSwitch } from "@/components/theme-switch";
+import { siteConfig } from "@/config/site";
 
 export const Navbar = () => {
   return (
@@ -56,6 +60,9 @@ export const Navbar = () => {
           <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
             <InstagramIcon className="text-default-500" />
           </Link> */}
+          <Link isExternal aria-label="Discord" href={siteConfig.links.facbook}>
+            <FacebookIcon className="text-default-500" />
+          </Link>
           <ThemeSwitch />
         </NavbarItem>
       </NavbarContent>
@@ -67,6 +74,9 @@ export const Navbar = () => {
         <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
           <InstagramIcon className="text-default-500" />
         </Link> */}
+        <Link isExternal aria-label="Discord" href={siteConfig.links.facbook}>
+          <FacebookIcon className="text-default-500" />
+        </Link>
         <ThemeSwitch />
         {/* <NavbarMenuToggle /> */}
       </NavbarContent>
