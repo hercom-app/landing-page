@@ -3,10 +3,14 @@ import {
   NavbarContent,
   NavbarBrand,
   NavbarItem,
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem,
 } from "@nextui-org/navbar";
 import NextLink from "next/link";
 import Image from "next/image";
 import { Link } from "@nextui-org/link";
+import clsx from "clsx";
 
 import { FacebookIcon } from "./icons";
 
@@ -31,13 +35,14 @@ export const Navbar = () => {
             <Image alt="logo" height={60} src="/logo.png" width={60} />
           </NextLink>
         </NavbarBrand>
-        {/* <ul className="hidden lg:flex gap-4 justify-start ml-2">
+        <ul className="hidden lg:flex gap-4 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink
                 className={clsx(
-                  linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-medium active:text-primary-700 hover:text-primary-700 duration-300 hover:!opacity-100"
+                  // linkStyles({ color: "foreground" }),
+                  "text-foreground font-semibold",
+                  "data-[active=true]:text-primary data-[active=true]:font-medium active:text-primary-500 hover:text-primary-500 duration-300 hover:!opacity-100"
                 )}
                 color="foreground"
                 href={item.href}
@@ -46,7 +51,7 @@ export const Navbar = () => {
               </NextLink>
             </NavbarItem>
           ))}
-        </ul> */}
+        </ul>
       </NavbarContent>
 
       <NavbarContent
@@ -78,10 +83,10 @@ export const Navbar = () => {
           <FacebookIcon className="text-foreground" size={20} />
         </Link>
         <ThemeSwitch />
-        {/* <NavbarMenuToggle /> */}
+        <NavbarMenuToggle />
       </NavbarContent>
 
-      {/* <NavbarMenu>
+      <NavbarMenu>
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
@@ -91,7 +96,7 @@ export const Navbar = () => {
             </NavbarMenuItem>
           ))}
         </div>
-      </NavbarMenu> */}
+      </NavbarMenu>
     </NextUINavbar>
   );
 };

@@ -5,38 +5,22 @@ export const siteConfig = {
   description: "Descripcion de la App HERCOM",
   navItems: [
     {
-      label: "Servicios",
-      href: "#servicios",
+      label: "Inicio",
+      href: "/",
     },
     {
-      label: "Nosotros",
-      href: "#nosotros",
-    },
-    {
-      label: "Preguntas",
-      href: "#preguntas",
-    },
-    {
-      label: "Contacto",
-      href: "#contacto",
+      label: "Cliente",
+      href: "/cliente",
     },
   ],
   navMenuItems: [
     {
-      label: "Servicios",
-      href: "#servicios",
+      label: "Inicio",
+      href: "/",
     },
     {
-      label: "Nosotros",
-      href: "#nosotros",
-    },
-    {
-      label: "Preguntas",
-      href: "#preguntas",
-    },
-    {
-      label: "Contacto",
-      href: "#contacto",
+      label: "Cliente",
+      href: "/cliente",
     },
   ],
   links: {
