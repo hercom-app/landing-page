@@ -1,4 +1,10 @@
+import { Metadata } from "next";
+
 import { title } from "@/components/primitives";
+
+export const metadata: Metadata = {
+  title: "Cliente",
+};
 
 export default function Page() {
   return (
