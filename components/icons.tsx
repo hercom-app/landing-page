@@ -520,12 +520,18 @@ export function LogosApple(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export function FacebookIcon(props: SVGProps<SVGSVGElement>) {
+export const FacebookIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: IconSvgProps) => {
   return (
     <svg
-      height="1em"
+      height={size || height}
+      role="presentation"
       viewBox="0 0 1000 1000"
-      width="1em"
+      width={size || width}
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
@@ -535,4 +541,4 @@ export function FacebookIcon(props: SVGProps<SVGSVGElement>) {
       />
     </svg>
   );
-}
+};
