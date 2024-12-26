@@ -12,6 +12,14 @@ export const siteConfig = {
       label: "Cliente",
       href: "/cliente",
     },
+    {
+      label: "Nosotros",
+      href: "/nosotros",
+    },
+    {
+      label: "Servicios",
+      href: "/servicios",
+    },
   ],
   navMenuItems: [
     {
@@ -21,6 +29,14 @@ export const siteConfig = {
     {
       label: "Cliente",
       href: "/cliente",
+    },
+    {
+      label: "Nosotros",
+      href: "/nosotros",
+    },
+    {
+      label: "Servicios",
+      href: "/servicios",
     },
   ],
   links: {

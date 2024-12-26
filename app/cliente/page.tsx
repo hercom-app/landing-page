@@ -15,7 +15,7 @@ export default function Page() {
         <div className="section h-full grid place-items-center relative z-[3]">
           <h1
             className={title({
-              class: "max-lg:text-center lg:font-bold lg:text-balance",
+              class: "text-center font-bold text-balance",
               size: "lg",
             })}
           >
