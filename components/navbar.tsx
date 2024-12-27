@@ -90,7 +90,12 @@ export const Navbar = () => {
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link color="foreground" href="#" size="lg">
+              <Link
+                className="w-full"
+                color="foreground"
+                href={item.href}
+                size="lg"
+              >
                 {item.label}
               </Link>
             </NavbarMenuItem>

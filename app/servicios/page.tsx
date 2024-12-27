@@ -11,7 +11,7 @@ import {
 } from "@/components/icons";
 
 export const metadata: Metadata = {
-  title: "Nosotros",
+  title: "Nuestros Servicios",
 };
 
 export default function Page() {

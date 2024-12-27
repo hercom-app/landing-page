@@ -20,6 +20,10 @@ export const siteConfig = {
       label: "Servicios",
       href: "/servicios",
     },
+    {
+      label: "Contáctanos",
+      href: "/contactanos",
+    },
   ],
   navMenuItems: [
     {
@@ -37,6 +41,10 @@ export const siteConfig = {
     {
       label: "Servicios",
       href: "/servicios",
+    },
+    {
+      label: "Contáctanos",
+      href: "/contactanos",
     },
   ],
   links: {
