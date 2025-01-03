@@ -14,16 +14,9 @@ export const Footer = () => {
         <Link
           isExternal
           className="text-white"
-          href="https://superb-ram-273.convex.cloud/api/storage/8ef22708-1243-456b-8778-0dc6ace3efa2"
+          href="https://superb-ram-273.convex.cloud/api/storage/87b89bc9-3df1-45b1-bc4f-14d0a940abd0"
         >
-          Política de choferes
-        </Link>
-        <Link
-          isExternal
-          className="text-white"
-          href="https://superb-ram-273.convex.cloud/api/storage/812ce37a-e1ac-4277-835f-2a0a80f36fd2"
-        >
-          Política de pasajeros
+          Política de privacidad
         </Link>
       </div>
       <div className="flex items-center gap-1 text-current">
