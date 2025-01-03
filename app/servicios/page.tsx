@@ -31,18 +31,19 @@ export default function Page() {
               ¡Encuentra el servicio perfecto en la comodidad de tu propio
               vehículo!
             </h1>
-            <p
-              className={title({
-                size: "sm",
-                class: "text-center font-normal",
-              })}
-            >
-              Nuestros Servicios
-            </p>
           </hgroup>
         </div>
       </main>
       <section className="section py-10 lg:py-20 space-y-10">
+        <h2
+          className={title({
+            size: "xs",
+            fullWidth: true,
+            class: "text-center",
+          })}
+        >
+          Nuestros Servicios
+        </h2>
         <p className="text-balance text-lg text-center">
           Actualmente contamos con líneas de negocios de Choferes para los
           diversos sectores de público que el mercado por hoy nos exige:

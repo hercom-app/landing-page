@@ -16,11 +16,17 @@ export function ContactForm() {
         <Tab key="chofer" title="Para Choferes">
           <Card>
             <CardHeader className="flex gap-2">
-              Si deseas ser parte de nuestro equipo de Choferes, envíanos tu CV
-              al siguiente correo:{" "}
-              <Link isExternal href="mailto:reclutamiento@ricardosymas.com">
-                reclutamiento@ricardosymas.com
-              </Link>
+              <p className="lg:flex gap-2">
+                Si deseas ser parte de nuestro equipo de Choferes, envíanos tu
+                CV al siguiente correo:{" "}
+                <Link
+                  isExternal
+                  as="span"
+                  href="mailto:reclutamiento@ricardosymas.com"
+                >
+                  reclutamiento@ricardosymas.com
+                </Link>
+              </p>
             </CardHeader>
             <CardBody className="space-y-10">
               <Input

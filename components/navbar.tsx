@@ -65,7 +65,11 @@ export const Navbar = () => {
           <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
             <InstagramIcon className="text-default-500" />
           </Link> */}
-          <Link isExternal aria-label="Discord" href={siteConfig.links.facbook}>
+          <Link
+            isExternal
+            aria-label="Facebook"
+            href={siteConfig.links.facbook}
+          >
             <FacebookIcon className="text-foreground" size={20} />
           </Link>
           <ThemeSwitch />

@@ -90,13 +90,13 @@ export default function Home() {
               icon: <PhoneCheckIcon className="z-[2]" size={32} />,
               title: "Comodidad",
               description:
-                "Te llevamos a ti y atu familia a tu destino en la comodidad de tu propio vehiculo",
+                "Te llevamos a ti y a tu familia a tu destino en la comodidad de tu propio vehiculo",
             },
             {
               icon: <SecurityIcon className="z-[2]" size={32} />,
               title: "Prevención",
               description:
-                "Evita poner tu vida en riesgo o la vida de los demas. Evita las multas. Evita terminar en la carcel.",
+                "Evita poner tu vida en riesgo o la vida de los demas. Evita las multas o terminar en la carcel.",
             },
             {
               icon: <ThumbsUpIcon className="z-[2]" size={32} />,
@@ -246,11 +246,14 @@ export default function Home() {
             ¡Haz tu viaje más seguro ahora!
           </h2>
           <p className="text-center text-balance text-small lg:text-base">
-            Nadie está libre de los accidentes, pero si podemos mitigarlos con
-            tu Chofer para Remplazo. HERCOM - Chofer para Remplazo te ofrece la
-            tranquilidad que necesitas en cada viaje. Descarga la app y accede a
-            nuestros servicios exclusivos para protegerte, sin importar a dónde
-            vayas.
+            Nadie está libre de los Accidentes de Tránsito, pero sí podemos
+            mitigarlos con tu aplicación móvil HERCOM - Chofer para Remplazo.
+            Ahora tu tranquilidad y la de tu familia está en tus manos.
+          </p>
+          <p className="text-center text-balance text-small lg:text-base">
+            Descarga la App HERCOM - Chofer para Remplazo y accede a nuestros
+            servicios exclusivos. Nuestros Choferes son previamente calificados
+            y te llevarán a donde vayas.
           </p>
           <p className="text-center text-balance lg:text-lg font-semibold">
             Evitar es de inteligentes, Prevenir es de sabios

@@ -22,18 +22,19 @@ export default function Page() {
             >
               Cuidamos de ti y de tu familia
             </h1>
-            <p
-              className={title({
-                size: "sm",
-                class: "text-center font-normal",
-              })}
-            >
-              Nosotros
-            </p>
           </hgroup>
         </div>
       </main>
       <section className="section py-10 lg:py-20 space-y-10">
+        <h2
+          className={title({
+            size: "xs",
+            fullWidth: true,
+            class: "text-center",
+          })}
+        >
+          Nosotros
+        </h2>
         <p className="text-balance text-lg lg:text-center">
           Somos una empresa peruana, con experiencia en diagnóstico de brechas
           sociales, elaboración de procesos, desarrollo de software e
