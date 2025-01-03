@@ -1,6 +1,5 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 
 import { Providers } from "./providers";
@@ -8,6 +7,7 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: {
@@ -85,16 +85,7 @@ export default function RootLayout({
                 Contáctanos
               </Button>
             </div> */}
-            <footer className="w-full flex items-center justify-center py-3 bg-primary">
-              <Link
-                isExternal
-                className="flex items-center gap-1 text-current"
-                href="#"
-              >
-                <span className="text-white">Con el respaldo de</span>
-                <p className="text-white font-bold">Ricardos & Más S.A.C.</p>
-              </Link>
-            </footer>
+            <Footer />
           </div>
         </Providers>
       </body>
