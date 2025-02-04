@@ -96,7 +96,7 @@ export default function Home() {
               icon: <SecurityIcon className="z-[2]" size={32} />,
               title: "Prevención",
               description:
-                "Evita poner tu vida en riesgo o la vida de los demas. Evita las multas o terminar en la carcel.",
+                "Evita poner tu vida en riesgo o la vida de los demas. Evita las multas y terminar en la carcel.",
             },
             {
               icon: <ThumbsUpIcon className="z-[2]" size={32} />,
