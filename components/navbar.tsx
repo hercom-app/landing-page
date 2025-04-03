@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -11,6 +13,7 @@ import NextLink from "next/link";
 import Image from "next/image";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
+import { useState } from "react";
 
 import { FacebookIcon } from "./icons";
 
@@ -18,6 +21,8 @@ import { ThemeSwitch } from "@/components/theme-switch";
 import { siteConfig } from "@/config/site";
 
 export const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <NextUINavbar
       classNames={{
@@ -25,6 +30,8 @@ export const Navbar = () => {
       }}
       maxWidth="xl"
       position="sticky"
+      isMenuOpen={isOpen}
+      onMenuOpenChange={setIsOpen}
     >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
@@ -42,7 +49,7 @@ export const Navbar = () => {
                 className={clsx(
                   // linkStyles({ color: "foreground" }),
                   "text-foreground font-semibold",
-                  "data-[active=true]:text-primary data-[active=true]:font-medium active:text-primary-500 hover:text-primary-500 duration-300 hover:!opacity-100"
+                  "data-[active=true]:text-primary data-[active=true]:font-medium active:text-primary-500 hover:text-primary-500 duration-300 hover:!opacity-100",
                 )}
                 color="foreground"
                 href={item.href}
@@ -99,6 +106,7 @@ export const Navbar = () => {
                 color="foreground"
                 href={item.href}
                 size="lg"
+                onClick={() => setIsOpen(false)}
               >
                 {item.label}
               </Link>
