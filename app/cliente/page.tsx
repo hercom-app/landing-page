@@ -34,9 +34,10 @@ export default function Page() {
           Reglas para el Cliente
         </h2>
         <p className="text-balance text-lg text-center">
-          Usted deberá confirmar que cuenta con toda la documentación legal de su vehiculo como la tarjeta de propiedad del
-          mismo, el Seguro Obligatorio de Accidentes de Tránsito (SOAT) y el
-          Certificado de Revisión Técnica
+          Usted deberá confirmar que cuenta con toda la documentación legal de
+          su vehiculo como la tarjeta de propiedad del mismo, el Seguro
+          Obligatorio de Accidentes de Tránsito (SOAT) y el Certificado de
+          Revisión Técnica
         </p>
       </section>
     </>

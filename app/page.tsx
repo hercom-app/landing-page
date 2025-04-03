@@ -15,7 +15,6 @@ import {
 } from "@/components/icons";
 import { GlobeDemo } from "@/components/globe";
 import { Faqs } from "@/components/faqs";
-import Splash from "@/assets/splash.jpg";
 
 export default function Home() {
   return (
@@ -70,7 +69,7 @@ export default function Home() {
                 </Link> */}
               </div>
             </div>
-            <Phone image={Splash} />
+            <Phone />
           </div>
         </div>
       </main>

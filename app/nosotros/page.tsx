@@ -86,10 +86,11 @@ export default function Page() {
         <p className="text-balance text-lg lg:text-center">
           Sobre CHOFER PARA REMPLAZO, la RAE (Real Academia Española) acepta
           ambos términos a utilizar en una oración como reemplazo y remplazo;
-          hemos querido trabajar con una sola 'E' en el término remplazo, porque
-          nosotros somos consientes que vamos a conducir un vehículo que
-          necesita de nosotros, de nuestro profesionalismo y no consideramos
-          estar definidos como una segunda opción de reemplazar a alguien.
+          hemos querido trabajar con una sola &apos;E&apos; en el término
+          remplazo, porque nosotros somos consientes que vamos a conducir un
+          vehículo que necesita de nosotros, de nuestro profesionalismo y no
+          consideramos estar definidos como una segunda opción de reemplazar a
+          alguien.
         </p>
         <p className="text-balance text-lg lg:text-center">
           Nuestros servicios pueden ser programados en la APP o en la Central

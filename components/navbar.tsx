@@ -28,9 +28,9 @@ export const Navbar = () => {
       classNames={{
         base: "bg-transparent",
       }}
+      isMenuOpen={isOpen}
       maxWidth="xl"
       position="sticky"
-      isMenuOpen={isOpen}
       onMenuOpenChange={setIsOpen}
     >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
