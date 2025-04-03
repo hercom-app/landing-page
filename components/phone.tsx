@@ -1,4 +1,5 @@
 import Image, { StaticImageData } from "next/image";
+
 import Splash from "@/assets/splash.jpg";
 
 interface Props {
@@ -25,14 +26,12 @@ export const Phone = ({ image }: Props) => {
           <div className="-mt-1 bg-neutral-200 rounded-full h-1 flex-1" />
           <div className="-mt-1 bg-neutral-200 rounded-full h-1 w-1" />
         </div>
-        {image && (
-          <Image
-            priority
-            alt="Phone image"
-            className="w-full h-full object-cover"
-            src={Splash}
-          />
-        )}
+        <Image
+          priority
+          alt="Phone image"
+          className="w-full h-full object-cover"
+          src={Splash}
+        />
       </div>
     </div>
   );
